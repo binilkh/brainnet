@@ -1,0 +1,79 @@
+  .searchWrapper {
+    border-radius: 5px;
+    background-color: white;
+    height: 440px;
+    width: 930px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    margin-left: 5px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    overflow-y: scroll;
+  }
+  
+  .Modal {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    background-color: darkgray;
+  }
+
+  .Overlay {
+    position: fixed;
+    top: 100px;
+    left: 600px;
+    right: 0;
+    bottom: 0;
+    width: 30%;
+    height: 50%;
+    background-color: rgb(53, 51, 54);
+  }
+  .searchList {
+    padding-top: 2px;
+    float: left;
+  }
+  .serachResultData1 {
+    display: grid;
+    grid-template-columns: repeat(12, [col-start] 1fr);
+    align-items: left;
+    padding: 0;
+   }
+   .colZero{
+    display: block;
+    grid-column-start: 1;
+    grid-column-end: 2;
+   }
+   .colOne{
+    display: block;
+    grid-column-start: 2;
+    grid-column-end: 3;
+   }
+   .colTwo{
+    display: block;
+    grid-column-start: 3;
+    grid-column-end: 6;
+   }
+   .colThree{
+    display: block;
+    grid-column-start: 6;
+    grid-column-end: 7;
+   }
+   .colFour{
+    display: block;
+    grid-column-start: 7;
+    grid-column-end: 10;
+   }
+   .colSix{
+    display: block;
+    grid-column-start: 10;
+    grid-column-end: 12;
+   }
+   .colSeven{
+    display: block;
+    grid-column-start: 12;
+    grid-column-end: 13;
+   }
+   

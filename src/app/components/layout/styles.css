@@ -1,0 +1,60 @@
+.main {
+  display: grid;
+  grid-template-columns: repeat(12, [col-start] 1fr);
+  height: auto;
+  background-color: #5E5C5B;
+}
+.headerMain {
+  grid-column-start: 2;
+  grid-column-end: 12;
+  z-index: 99999;
+  padding-top: 8px;
+}
+.items {
+  grid-column-start: 1;
+  grid-column-end: 13;
+}
+.bookingMain {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  z-index: 99999;
+}
+.rightLabel {
+  grid-column-start: 4;
+  grid-column-end: 13;
+  float: right;
+}
+.imgStyle{
+  width:100px;
+  height: 100px;
+}
+.adv {
+  grid-column-start: 9;
+  grid-column-end: 11;
+  background-color: darkgray;
+  color: rgb(139, 21, 21);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 500;
+  opacity: 0.75;
+  height: 200px;
+  width: 300px;
+  margin-top: 200px;
+  margin-left: 100px;
+}
+.innerdiv {
+  opacity: 1;
+}
+.login{
+  grid-column-start: 1;
+  grid-column-end: 13;
+  margin-top: 10px;
+}
+.mainLogin{
+  display: grid;
+  grid-template-columns: repeat(12, [col-start] 1fr);
+  height: 600px;
+  background-color: #5E5C5B;
+}
+.fill{
+  height: 10px;
+}
